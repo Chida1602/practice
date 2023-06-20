@@ -1,0 +1,42 @@
+<!-- string interpolation -->
+<!-- <img src={{path}} alt="no image">
+<h2>{{city}}</h2>
+<h1>{{title}}</h1>
+<h1 class={{cname}}>{{name}}</h1>
+<h2>{{d}}</h2> -->
+
+<!-- property binding -->
+<!-- <div class="divid">
+Mobile:<input type="text">
+Age:<input type="number" [hidden]=ishidden>
+<button [disabled]=isdisabled>Submit</button>
+</div>
+<img [src]=path alt="no img"> -->
+
+<!-- class binding -->
+<!-- <h2 [class]="isactive?'active':'inactive'">Intern at Dedalus</h2>
+<h2 [class]="['c1','active']">Angular training</h2>
+<h2 [class.active]=isactive>Angular training</h2> -->
+
+<!-- Style Binding -->
+<!-- <h1 style="color:{{cvar}}">Hi guys!</h1> 
+<h1 [style.color]="cvar">Hi guys!</h1> 
+<h1 [style]="mystyle">Hi guys!</h1> 
+<h1 [style.color]="haserror?'red':'green'">Hi guys!</h1> -->
+
+<!-- Event Binding -->
+<!-- click Event -->
+<!-- <button (click)="increment()">+</button>
+<button (click)="decrease()">-</button>
+<h1>Counter: {{counter}}</h1>
+Name: <input type="text" (input)="changename($event)">
+<h1>You name:{{my_name}}</h1> 
+Name: <input type="text" on-input="changename($event)">
+<h1> Your name : {{my_name}} </h1> -->
+
+<!-- two way data binding -->
+City:<input type="text" [(ngModel)]="place">
+<p>{{place}}</p>
+<button (click)="updateCity()">Update</button>
+
+<!-- Directives -->

@@ -1,0 +1,29 @@
+h1
+{
+    color : rgb(133, 222, 170);
+}
+
+.special{
+    border: 4px rgb(8, 8, 8);
+}
+.pecial{
+    background-color: blueviolet;
+}
+.divid{
+    background: grey;
+    border-style: dashed;
+    border: 2px solid red;
+    padding:6px;
+}
+.active{
+    background-color: yellowgreen;
+    color: white;
+}
+.inactive{
+    background-color: palevioletred;
+    color: white;
+}
+.c1{
+    border: 2px solid red;
+    padding: 5px;
+}
